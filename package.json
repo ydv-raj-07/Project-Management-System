@@ -1,0 +1,22 @@
+{
+  "name": "project__management",
+  "version": "1.0.0",
+  "description": "A Project Management App For Beginners",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "Udemy",
+    "Course",
+    "Backend",
+    "API",
+    "creation"
+  ],
+  "author": "Raj Ranjan",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
