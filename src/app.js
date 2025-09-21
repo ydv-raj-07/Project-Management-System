@@ -18,6 +18,11 @@ app.use(cors({
 }),
 );
 
+//import the routes
+import healthCheckrouter from "./routes/healthcheck.routes.js";
+
+app.use("/api/v1/healthcheck",healthCheckrouter)
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
