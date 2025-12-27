@@ -371,7 +371,7 @@ const changeCurrentPassword = asyncHandler(async (req, res) => {
     .json(
       new ApiResponse(200,
         {},
-        "password cahnged successfully"
+        "password changed successfully"
       ));
 });
 
